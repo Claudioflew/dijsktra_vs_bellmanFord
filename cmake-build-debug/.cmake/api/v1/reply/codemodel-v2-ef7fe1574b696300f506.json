@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "dijkstra_vs_bellmanFord",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "dijkstra_vs_bellmanFord::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dijkstra_vs_bellmanFord-Debug-10d081c4dda9131a5881.json",
+					"name" : "dijkstra_vs_bellmanFord",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/claudio/Desktop/School/LMC_CS/LMC_Courses/COMSC210_DataStructure/Peer_Interactions/dijkstra_vs_bellmanFord/cmake-build-debug",
+		"source" : "/Users/claudio/Desktop/School/LMC_CS/LMC_Courses/COMSC210_DataStructure/Peer_Interactions/dijkstra_vs_bellmanFord"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

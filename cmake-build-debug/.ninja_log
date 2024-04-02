@@ -1,0 +1,13 @@
+# ninja log v5
+0	735	1712087639473472333	CMakeFiles/dijkstra_vs_bellmanFord.dir/main.cpp.o	74f6f3256c4dd487
+738	865	1712087639605501632	dijkstra_vs_bellmanFord	6504451b8078ad6
+2	684	1712087859407890500	CMakeFiles/dijkstra_vs_bellmanFord.dir/main.cpp.o	74f6f3256c4dd487
+686	807	1712087859532236998	dijkstra_vs_bellmanFord	6504451b8078ad6
+2	671	1712087978639664872	CMakeFiles/dijkstra_vs_bellmanFord.dir/main.cpp.o	74f6f3256c4dd487
+673	766	1712087978738161358	dijkstra_vs_bellmanFord	6504451b8078ad6
+2	653	1712088133811431869	CMakeFiles/dijkstra_vs_bellmanFord.dir/main.cpp.o	74f6f3256c4dd487
+654	747	1712088133908499548	dijkstra_vs_bellmanFord	6504451b8078ad6
+2	699	1712088947973170752	CMakeFiles/dijkstra_vs_bellmanFord.dir/main.cpp.o	74f6f3256c4dd487
+700	818	1712088948095305264	dijkstra_vs_bellmanFord	6504451b8078ad6
+2	641	1712089144601507759	CMakeFiles/dijkstra_vs_bellmanFord.dir/main.cpp.o	74f6f3256c4dd487
+644	741	1712089144704491311	dijkstra_vs_bellmanFord	6504451b8078ad6
