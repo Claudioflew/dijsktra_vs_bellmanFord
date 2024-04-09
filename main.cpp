@@ -36,11 +36,13 @@ int main() {
     cout << "Runtime of Bellman-Ford: " << durationOfBellmanFord.count() << endl;
 }
 
-/* makeAdjList:
+/*
+ * makeAdjList:
  * Converts vector<vector<int>> to an adjacency list vector<vector<pair<int, int>>>
  * Receives: n: Number of vertices (= airports) in the graph
  *           flights: Represents edges, {{Origin Apt, Dest Apt, Cost}, {Origin Apt, Dest Apt, Cost}, ... }
- * Returns: adjList: {Origin Apt: {Dest Apt, Cost}, {Dest Apt, Cost}, Origin Apt: {Dest Apt, Cost}... } */
+ * Returns: adjList: {Origin Apt: {Dest Apt, Cost}, {Dest Apt, Cost}, Origin Apt: {Dest Apt, Cost}... }
+ */
 vector<vector<pair<int, int>>> makeAdjList(int n, const vector<vector<int>>& flights) {
     vector<vector<pair<int, int>>> adjList(n);
     // (n) creates n empty vectors in adjList, without this, push_back() won't work.
@@ -50,13 +52,15 @@ vector<vector<pair<int, int>>> makeAdjList(int n, const vector<vector<int>>& fli
     return adjList;
 }
 
-/* findCheapestFlightWithDijkstra:
+/*
+ * findCheapestFlightWithDijkstra:
  * Implements Dijkstra's algorithm, using priority queue to always pop the cheapest airport.
  * Receives : n: Number of vertices (= airports) in the graph
  *            adjList: Adjacency list, please refer to makeAdjList()
  *            src: Origin airport
  *            dst: Destination airport
- * Returns: costs[dst]: Cheapest cost from src to dst */
+ * Returns: costs[dst]: Cheapest cost from src to dst
+ */
 int findCheapestFlightWithDijkstra(int n, const vector<vector<pair<int, int>>>& adjList, int src, int dst) {
     vector<bool> visited(n, false); // We don't really need this boolean vector for a graph only with non-negative weights
     unordered_map<int, int> costs; // Stores the cheapest cost from src
@@ -91,13 +95,15 @@ int findCheapestFlightWithDijkstra(int n, const vector<vector<pair<int, int>>>& 
     return costs[dst];
 }
 
-/* findCheapestFlightWithBellmanFord:
+/*
+ * findCheapestFlightWithBellmanFord:
  * Implements Bellman-Ford algorithm, simply using loop to iterate all airports (n-1) times.
  * Receives : n: Number of vertices (= airports) in the graph
  *            adjList: Adjacency list, please refer to makeAdjList()
  *            src: Origin airport
  *            dst: Destination airport
- * Returns: costs[dst]: Cheapest cost from src to dst */
+ * Returns: costs[dst]: Cheapest cost from src to dst
+ */
 int findCheapestFlightWithBellmanFord(int n, const vector<vector<pair<int, int>>>& adjList, int src, int dst) {
     unordered_map<int, int> costs;
 
