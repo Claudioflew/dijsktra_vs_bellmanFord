@@ -12,7 +12,7 @@ int findCheapestFlightWithBellmanFord(int, const vector<vector<pair<int, int>>>&
 
 
 int main() {
-    vector<vector<int>> flights = {{0, 1, 120}, {1, 2, 150}, {2, 0, 100}, {1, 3, 600}, {2, 3, 200}};
+    vector<vector<int>> flights = {{0, 1, 120}, {1, 2, 150}, {2, 0, 110}, {1, 3, 600}, {2, 3, 200}};
     vector<vector<int>> flights2 = {{0, 1, 500}, {0, 2, 700}, {2, 1, -400}, {1, 3, 100}};
 
 
